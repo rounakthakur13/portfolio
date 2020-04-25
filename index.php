@@ -210,9 +210,9 @@
                                     <div class="row">
                                         <div class="card-columns">
                                             <div class="col-12">
-                                                <div class="card" style="width: 18rem;">
-                                                    <a href="assets/img/trycer.jpg" class="image-link"><img
-                                                            src="assets/img/trycer.jpg" alt="..."></a>
+                                                <div class="card" style="width: 18rem; !important">
+                                                    <a href="assets\img\certificates\CERTIFICATES[5].jpg" class="image-link"><img
+                                                            src="assets\img\certificates\CERTIFICATES[5].jpg" alt="..."></a>
                                                     <div class="card-body">
                                                         <p class="card-text">Some quick example text to build on the
                                                             card
