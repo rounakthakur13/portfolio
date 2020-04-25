@@ -214,9 +214,7 @@
                                                     <a href="assets\img\certificates\CERTIFICATES[5].jpg" class="image-link"><img
                                                             src="assets\img\certificates\CERTIFICATES[5].jpg" alt="..."></a>
                                                     <div class="card-body">
-                                                        <p class="card-text">Some quick example text to build on the
-                                                            card
-                                                            title and make up the bulk of the card's content.</p>
+                                                        <p class="card-text">PHP enables you to create dynamic web pages, develop websites, and generate dynamic content. You’ll also be able to open files; write content to files; and create contact forms, forums, blogs, picture galleries, surveys, social networks, and a whole lot more.</p>
                                                     </div>
                                                 </div>
                                                 <div class="card" style="width: 18rem;">
