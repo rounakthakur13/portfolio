@@ -11779,3 +11779,8 @@ html {
 }
 
 }
+
+.maxwidth {
+  max-width: 18rem !important;
+  min-width: 17rem !important;
+}
