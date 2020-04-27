@@ -8332,6 +8332,7 @@ button.bg-dark:focus {
 
 .w-100 {
   width: 100% !important;
+  max-height: 410px;
 }
 
 .w-auto {
@@ -11734,7 +11735,10 @@ html {
 
 
 /* below styles will be applied only to laptop devices */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+  
+}
 
 
 /* below styles will be applied only to mobile and tablet  devices */
@@ -11747,28 +11751,29 @@ html {
     height: 100vh;
   }
 
-  header.masthead .masthead-heading{
+  header.masthead .masthead-heading {
     font-size: 2rem;
   }
 
-  .page-section{
+  .page-section {
     max-width: 100vw;
     overflow-x: hidden;
   }
+  .card-text:last-child {
+    margin-bottom: 0;
+    font-size: 12px;
+}
 }
 
 
 /* below styles will be applied only to mobile devices */
-@media (max-width: 600px) {
-
-  
-}
+@media (max-width: 600px) {}
 
 
 
 /* below styles will be applied only to tablet devices */
 @media (min-width: 600px) and (max-width:992px) {
- 
+
   .card-columns {
     -moz-column-count: 3;
     column-count: 2;
@@ -11776,11 +11781,212 @@ html {
     column-gap: 2.25rem;
     orphans: 1;
     widows: 1;
+  }
+  
+
 }
+ 
+/* social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  width: fit-content;
+}
+
+.fa:hover {
+  opacity: 0.7;
 
 }
 
-.maxwidth {
-  max-width: 18rem !important;
-  min-width: 17rem !important;
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-github {
+  background: white;
+  color: #24292e;
+}
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.social-media-icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-icon-section a {
+  text-decoration: none;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+@media (max-width: 992px) {
+  .social-media-icon-section a {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    padding: 13px;
+    font-size: 25px;
+  }
+}
+
+
+
+
+
+
+
+/* dee wala */
+.tabset>input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset>input:first-child:checked~.tab-panels>.tab-panel:first-child,
+.tabset>input:nth-child(3):checked~.tab-panels>.tab-panel:nth-child(2),
+.tabset>input:nth-child(5):checked~.tab-panels>.tab-panel:nth-child(3),
+.tabset>input:nth-child(7):checked~.tab-panels>.tab-panel:nth-child(4),
+.tabset>input:nth-child(9):checked~.tab-panels>.tab-panel:nth-child(5),
+.tabset>input:nth-child(11):checked~.tab-panels>.tab-panel:nth-child(6) {
+  display: block;
+}
+
+/*
+Styling
+*/
+body {
+  font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+  color: #333;
+  font-weight: 300;
+}
+
+.tabset>label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tabset>label::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 22px;
+  height: 4px;
+  background: #8d8d8d;
+}
+
+.tabset>label:hover,
+.tabset>input:focus+label {
+  color: #06c;
+}
+
+.tabset>label:hover::after,
+.tabset>input:focus+label::after,
+.tabset>input:checked+label::after {
+  background: #06c;
+}
+
+.tabset>input:checked+label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+}
+
+.tab-panel {
+  padding: 30px 0;
+  border-top: 1px solid #ccc;
+}
+
+/*
+Demo purposes only
+*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* body {
+  padding: 30px;
+} */
+
+/* .tabset {
+  max-width: 65em;
+} */
+
+.certification-cards-section {
+  display: grid;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.certificate-card {
+  justify-content: center;
+  align-items: center;
+}
+
+.certificate-card img {
+  width: auto;
+  height: auto;
+
+}
+
+@media (max-width: 992px) {
+  .certification-cards-section {
+
+      grid-template-columns: auto auto;
+  }
+
+  .certificate-card img {
+      width: 41vw;
+      height: auto;
+  }
+
+}
+
+.carousel-inner img {
+  width: auto;
+  height: auto;
+
 }

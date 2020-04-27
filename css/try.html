@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- magnific -->
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <script src="../js/jquery.magnific-popup.js"></script>
+    <script src="../js/scripts.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .tabset>input[type="radio"] {
+            position: absolute;
+            left: -200vw;
+        }
+
+        .tabset .tab-panel {
+            display: none;
+        }
+
+        .tabset>input:first-child:checked~.tab-panels>.tab-panel:first-child,
+        .tabset>input:nth-child(3):checked~.tab-panels>.tab-panel:nth-child(2),
+        .tabset>input:nth-child(5):checked~.tab-panels>.tab-panel:nth-child(3),
+        .tabset>input:nth-child(7):checked~.tab-panels>.tab-panel:nth-child(4),
+        .tabset>input:nth-child(9):checked~.tab-panels>.tab-panel:nth-child(5),
+        .tabset>input:nth-child(11):checked~.tab-panels>.tab-panel:nth-child(6) {
+            display: block;
+        }
+
+        /*
+ Styling
+*/
+        body {
+            font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+            color: #333;
+            font-weight: 300;
+        }
+
+        .tabset>label {
+            position: relative;
+            display: inline-block;
+            padding: 15px 15px 25px;
+            border: 1px solid transparent;
+            border-bottom: 0;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .tabset>label::after {
+            content: "";
+            position: absolute;
+            left: 15px;
+            bottom: 10px;
+            width: 22px;
+            height: 4px;
+            background: #8d8d8d;
+        }
+
+        .tabset>label:hover,
+        .tabset>input:focus+label {
+            color: #06c;
+        }
+
+        .tabset>label:hover::after,
+        .tabset>input:focus+label::after,
+        .tabset>input:checked+label::after {
+            background: #06c;
+        }
+
+        .tabset>input:checked+label {
+            border-color: #ccc;
+            border-bottom: 1px solid #fff;
+            margin-bottom: -1px;
+        }
+
+        .tab-panel {
+            padding: 30px 0;
+            border-top: 1px solid #ccc;
+        }
+
+        /*
+ Demo purposes only
+*/
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+        }
+
+        /* body {
+            padding: 30px;
+        } */
+
+        /* .tabset {
+            max-width: 65em;
+        } */
+
+        .certification-cards-section {
+            display: grid;
+            align-items: center;
+            justify-content: space-evenly;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+        }
+
+        .certificate-card {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .certificate-card img {
+            width: 25vw;
+            height: auto;
+
+        }
+
+        @media (max-width: 992px) {
+            .certification-cards-section {
+
+                grid-template-columns: auto auto;
+            }
+
+            .certificate-card img {
+                width: 45vw;
+                height: auto;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tabset">
+        <!-- Tab 1 -->
+        <input type="radio" name="tabset" id="tab1" aria-controls="completion" checked>
+        <label for="tab1">Completion</label>
+        <!-- Tab 2 -->
+        <input type="radio" name="tabset" id="tab2" aria-controls="won">
+        <label for="tab2">Won</label>
+        <!-- Tab 3 -->
+        <input type="radio" name="tabset" id="tab3" aria-controls="participation">
+        <label for="tab3">Participation</label>
+
+        <div class="tab-panels">
+            <section id="completion" class="tab-panel">
+                <div class="certification-cards-section">
+
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[4].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[4].jpg" class="lozad"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Fundamentals of Digital Marketing by
+                                Google </p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[12].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[12].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">FreeCodeCamp.org Responsive Web Design</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[11].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[11].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Complete Ethical Hacking Course:
+                                Beginner to Advanced!</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[9].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[9].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Complete JavaScript Course For Web
+                                Development Beginners</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[11].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[11].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Complete C Programming Tutorial</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[8].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[8].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">All in one HTML CSS and JQuery</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[2].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[2].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">SOLOLEARN HTML Fundamentals course</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[6].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[6].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">SOLOLEARN JavaScript Tutorial course</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[5].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[5].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">SOLOLEARN PHP Tutorial course</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section id="won" class="tab-panel">
+                <div class="certification-cards-section">
+
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[4].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[4].jpg" class="lozad"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Fundamentals of Digital Marketing by
+                                Google </p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[12].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[12].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">FreeCodeCamp.org Responsive Web Design</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[11].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[11].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Complete Ethical Hacking Course:
+                                Beginner to Advanced!</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[9].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[9].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Complete JavaScript Course For Web
+                                Development Beginners</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[11].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[11].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Complete C Programming Tutorial</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[8].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[8].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">All in one HTML CSS and JQuery</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[2].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[2].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">SOLOLEARN HTML Fundamentals course</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[6].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[6].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">SOLOLEARN JavaScript Tutorial course</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[5].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[5].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">SOLOLEARN PHP Tutorial course</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section id="participation" class="tab-panel">
+                <div class="certification-cards-section">
+
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[4].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[4].jpg" class="lozad"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Fundamentals of Digital Marketing by
+                                Google </p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[12].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[12].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">FreeCodeCamp.org Responsive Web Design</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[11].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[11].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Complete Ethical Hacking Course:
+                                Beginner to Advanced!</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[9].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[9].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Complete JavaScript Course For Web
+                                Development Beginners</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[11].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[11].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">The Complete C Programming Tutorial</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[8].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[8].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">All in one HTML CSS and JQuery</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[2].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[2].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">SOLOLEARN HTML Fundamentals course</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[6].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[6].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">SOLOLEARN JavaScript Tutorial course</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="../assets/img/certificates/CERTIFICATES[5].jpg" class="image-link"><img
+                                src="../assets/img/certificates/CERTIFICATES[5].jpg" class="lozad maxwidth"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">SOLOLEARN PHP Tutorial course</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

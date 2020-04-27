@@ -4,15 +4,16 @@
              class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
              data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
              aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
-
+            
          <div class="collapse navbar-collapse" id="navbarResponsive">
              <ul class="navbar-nav text-uppercase ml-auto">
 
-             <button class="btn btn-dark" onclick="darktoggle()">🌚/🌞</button>
+             <!-- <button class="btn btn-dark" onclick="darktoggle()">🌚/🌞</button> -->
                  
                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                
              </ul>
          </div>
      </div>

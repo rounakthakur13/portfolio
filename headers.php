@@ -36,3 +36,5 @@
 <!-- lozad -->
 
 <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+<script src="https://kit.fontawesome.com/da843a17d2.js" crossorigin="anonymous"></script>
