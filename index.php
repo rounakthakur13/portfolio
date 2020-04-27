@@ -101,6 +101,7 @@
                         <div class="timeline-body">
                             <p class="text-muted">Nibodh is an education sector startup which caters to fulfill the
                                 flaws of the Indian Education System,associated to engineering system.</p>
+                                <a href="assets\img\certificates/CERTIFICATES[2].jpg" class="image-link">Click here to view certificate</a>
                         </div>
                     </div>
                 </li>
