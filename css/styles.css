@@ -11732,8 +11732,14 @@ html {
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
+.subtits{
+  text-align: center !important;
+  color: #6d6d6d !important;
+}
+.contact-me-sub{
+  color: white !important;
 
-
+}
 /* below styles will be applied only to laptop devices */
 @media (min-width: 992px) {
 
@@ -11763,13 +11769,25 @@ html {
     margin-bottom: 0;
     font-size: 12px;
 }
+.subtits{
+  text-align: center !important;
+}
 }
 
 
 /* below styles will be applied only to mobile devices */
 @media (max-width: 600px) {}
 
-
+/* below styles will applied to ipad pro */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    .certificate-card img {
+      width: 28vw !important;
+      height: auto;
+  }
+  }
 
 /* below styles will be applied only to tablet devices */
 @media (min-width: 600px) and (max-width:992px) {
@@ -11782,7 +11800,10 @@ html {
     orphans: 1;
     widows: 1;
   }
-  
+  .certificate-card img {
+    width: 27vw;
+    height: auto;
+}
 
 }
  
@@ -11990,3 +12011,118 @@ Demo purposes only
   height: auto;
 
 }
+
+.page-section-portfolio{
+ padding: 0rem 0 !important;
+
+}
+
+
+.text-divider{margin: 2em 0; line-height: 0; text-align: center;}
+.text-divider span{background-color: #000000; color: white;}
+/* .text-divider-sub span{background-color: white; color: black;} */
+.text-divider:before{ content: " "; display: block; border-top: 1px solid #e3e3e3; border-bottom: 1px solid #f7f7f7;}
+
+/* single arrow animation */
+.fa-arrow-down{
+  color: black;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
+/*-------------introw Bouncing Arrow----------*/
+.circle {
+  
+  background: #414141;
+  border-radius: 100%;
+  text-align: center;
+  padding: 0px 0 0 0;
+  line-height: 50px;
+  color: #fff;
+  width: 100px;
+  margin: 0 auto;
+  height: 100px;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+
+
+
+
+
+

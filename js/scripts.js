@@ -55,6 +55,7 @@ const observer = lozad();
 observer.observe();
 
 
+
   // Initialize popup as usual
 $('.image-link').magnificPopup({
     type: 'image',
@@ -78,6 +79,20 @@ $('.image-link').magnificPopup({
   
   });
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
     // Collapse Navbar
     var navbarCollapse = function () {

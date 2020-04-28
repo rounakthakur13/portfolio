@@ -6,6 +6,7 @@
 </head>
 
 <body id="page-top">
+
     <!-- Navigation-->
     <?php include 'nav.php';?>
     <!-- Masthead-->
@@ -27,71 +28,282 @@
             </script>
             <br>
             <br>
-            <h6 class="nav-item"><a class="nav-link js-scroll-trigger">You are <?php include("counter.php");?> Visitor<a></a></h6>
+            <h6 class="nav-item"><a class="nav-link js-scroll-trigger">You are <?php include("counter.php");?>
+                    Visitor<a></a></h6>
+            <br>
+            <div class="container">
+                <div class="arrow-holder">
+                    <div id="arrow" class="circle bounce" data-target="#introText">
+                        <i class="fa fa-angle-double-down fa-4x drop-arrow"></i>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!-- Services-->
 
     <!-- resume Grid-->
     <section class="page-section" id="resume">
+        <h1 data-aos="zoom-in-up" class="text-divider text-uppercase"><span>Resume</span></h1>
 
         <?php include 'skills.php';?>
 
+        <div style class="col-md-12">
+            <div class="row">
+                <div data-aos="fade-right" class="col-md-4 p-r-40 m-t-30 m-b-30">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#programming" aria-expanded="false" aria-controls="programming">
+                                        Programming Skills <i class="arrow bounce fas fa-arrow-down"></i>
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="programming" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="container">
+                                        <span>C</span>
+                                        <span style="float: right;">75%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 75%; height:6px;"></div>
+                                        </div>
+                                        C++
+                                        <span style="float: right;">65%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 65%; height:6px;"></div>
+                                        </div>
+                                        Java
+                                        <span style="float: right;">65%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 65%; height:6px;"></div>
+                                        </div>
+                                        Python
+                                        <span style="float: right;">75%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 75%; height:6px;"></div>
+                                        </div>
+                                        PHP
+                                        <span style="float: right;">85%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 85%; height:6px;"></div>
+                                        </div>
+                                        HTML/CSS
+                                        <span style="float: right;">95%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 95%; height:6px;"></div>
+                                        </div>
+                                        JavaScript
+                                        <span style="float: right;">60%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 60%; height:6px;"></div>
+                                        </div>
+                                        Linux Programming
+                                        <span style="float: right;">85%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 85%; height:6px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div data-aos="fade-left" class="col-md-4 p-r-40 m-t-30 m-b-30">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#software" aria-expanded="true" aria-controls="software">
+                                        Software and tools knowledge <i class="arrow bounce fas fa-arrow-down"></i>
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="software" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="container">
+                                        Photoshop
+                                        <span style="float: right;">75%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 95%; height:6px;">75%</div>
+                                        </div>
+                                        VS Code
+                                        <span style="float: right;">75%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 55%; height:6px;"></div>
+                                        </div>
+                                        Sublime
+                                        <span style="float: right;">55%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 55%; height:6px;"></div>
+                                        </div>
+                                        Visual studio
+                                        <span style="float: right;">55%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 55%; height:6px;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Column -->
+                <div data-aos="fade-right" class="col-md-4 p-r-40 m-t-30 m-b-30">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#OS"
+                                        aria-expanded="true" aria-controls="OS">
+                                        Operating Systems Skills <i class="arrow bounce fas fa-arrow-down"></i>
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="OS" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div class="container">
+                                        Linux(Debain.Arch Linux,Florida)
+                                        <span style="float: right;">85%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 85%; height:6px;">
+                                            </div>
+                                        </div>
+                                        Windows
+                                        <span style="float: right;">95%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 95%; height:6px;">
+                                            </div>
+                                        </div>
+                                        Macintosh
+                                        <span style="float: right;">55%</span>
+                                        <div class="progress m-t-30" style="height:auto;">
+                                            <div data-aos="fade-right"
+                                                class="progress-bar progress-bar-striped progress-bar-animated"
+                                                role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                aria-valuemax="100" style="width: 55%; height:6px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
         <br>
 
         <div class="text-center">
-            <h2 data-aos="fade-up" class="section-heading text-uppercase">Education</h2>
-            <ul data-aos="fade-up" class="timeline">
-                <li data-aos="fade-right">
-                    <div class="timeline-image"><img class="lozad rounded-circle img-fluid" src="assets/img/school.jpg"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <div class="timeline-body">
-                                <p class="text-muted">2012-2017</p>
+            <div class="container">
+                <h4 data-aos="fade-up" class="text-uppercase subtits">Education</h4>
+                <ul data-aos="fade-up" class="timeline">
+                    <li data-aos="fade-up">
+                        <div class="timeline-image"><img class="lozad rounded-circle img-fluid"
+                                src="assets/img/school.jpg" alt="" /></div>
+                        <div data-aos="fade-right" class="timeline-panel">
+                            <div class="timeline-heading">
+                                <div class="timeline-body">
+                                    <p class="text-muted">2012-2017</p>
+                                </div>
+                                <h4 class="subheading">St. Xavier’s High School, Borivali (East)
+                                </h4>
                             </div>
-                            <h4 class="subheading">St. Xavier’s High School, Borivali (East)
-                            </h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Marks : 75%</p>
-                        </div>
-                    </div>
-                </li>
-                <li data-aos="fade-left" class="timeline-inverted">
-                    <div class="timeline-image"><img class="lozad rounded-circle img-fluid" src="assets/img/tpoly.jpg"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
                             <div class="timeline-body">
-                                <p class="text-muted">2017-2020</p>
+                                <p class="text-muted">Marks : 75%</p>
                             </div>
-                            <h4>Thakur Polytechnic</h4>
-                            <h4 class="subheading">Diploma in Computer Engineering</h4>
                         </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Pursuing 3rd year (76%)</p>
+                    </li>
+                    <li data-aos="fade-up" class="timeline-inverted">
+                        <div class="timeline-image"><img class="lozad rounded-circle img-fluid"
+                                src="assets/img/tpoly.jpg" alt="" /></div>
+                        <div data-aos="fade-left" class="timeline-panel">
+                            <div class="timeline-heading">
+                                <div class="timeline-body">
+                                    <p class="text-muted">2017-2020</p>
+                                </div>
+                                <h4>Thakur Polytechnic</h4>
+                                <h4 class="subheading">Diploma in Computer Engineering</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Pursuing 3rd year (76%)</p>
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
 
-                <li data-aos="fade-up" class="timeline-inverted">
-                    <div class="timeline-image">
-                        <h4>To Be<br />Continued<br /></h4>
-                    </div>
-                </li>
-            </ul>
+                    <li data-aos="fade-up" class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>To Be<br />Continued<br /></h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
+        <br>
         <div class="container">
             <div class="text-center">
-                <h2 data-aos="fade-up" class="section-heading text-uppercase">Work Experince</h2>
+                <h4 data-aos="fade-up" class="text-uppercase subtits">Work Experince</h4>
 
             </div>
             <ul class="timeline">
                 <li data-aos="fade-up">
                     <div class="timeline-image"><img class="lozad rounded-circle img-fluid" src="assets/img/nibodh.jpg"
                             alt="" /></div>
-                    <div class="timeline-panel">
+                    <div data-aos="fade-left" class="timeline-panel">
                         <div class="timeline-heading">
                             <div class="timeline-body">
                                 <p class="text-muted">6 weeks internship</p>
@@ -101,7 +313,8 @@
                         <div class="timeline-body">
                             <p class="text-muted">Nibodh is an education sector startup which caters to fulfill the
                                 flaws of the Indian Education System,associated to engineering system.</p>
-                                <a href="assets\img\certificates/CERTIFICATES[2].jpg" class="image-link">Click here to view certificate</a>
+                            <a href="assets\img\certificates/CERTIFICATES[2].jpg" class="image-link">Click here to view
+                                certificate</a>
                         </div>
                     </div>
                 </li>
@@ -109,16 +322,15 @@
             </ul>
         </div>
     </section>
-
+    <br>
     <!-- portfolio-->
-    <section class="page-section swiper--main--container" id="portfolio">
+    <section class="page-section" id="portfolio">
         <div class="container">
-
-            <h1 data-aos="fade-up" style="text-align: center">Portfolio</h1>
+            <h1 data-aos="zoom-in-up" class="text-divider text-uppercase"><span>Portfolio</span></h1>
             <!-- <div data-aos="fade-right" class="row"> -->
             <div class="container">
                 <br>
-                <h1 data-aos="fade-down" style="text-align: center">Certification</h1>
+                <h4 data-aos="fade-down" class="text-uppercase subtits">Certification</h4>
                 <div data-aos="fade-up" class="tabset">
                     <!-- Tab 1 -->
                     <input type="radio" name="tabset" id="tab1" aria-controls="completion" checked>
@@ -127,13 +339,15 @@
                     <!-- <input type="radio" name="tabset" id="tab2" aria-controls="won">
                     <label for="tab2">Won</label> -->
                     <!-- Tab 3 -->
+                    
                     <input type="radio" name="tabset" id="tab3" aria-controls="participation">
                     <label for="tab3">Participation</label>
-
+                    <p style="font-size: 10px;">*click on photo to zoom</p>
                     <div class="tab-panels">
                         <section id="completion" class="tab-panel">
+                            
                             <div class="certification-cards-section">
-
+                                
                                 <div class="card certificate-card">
                                     <a href="assets\img\certificates/CERTIFICATES[4].jpg" class="image-link"><img
                                             src="assets\img\certificates/CERTIFICATES[4].jpg" class="lozad"
@@ -145,7 +359,7 @@
                                 </div>
                                 <div class="card certificate-card">
                                     <a href="assets\img\certificates/CERTIFICATES[12].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[12].jpg" class="lozad maxwidth"
+                                            src="assets\img\certificates/CERTIFICATES[12].jpg" class="lozad"
                                             alt="..."></a>
                                     <div class="card-body">
                                         <p class="card-text">FreeCodeCamp.org Responsive Web Design</p>
@@ -153,7 +367,7 @@
                                 </div>
                                 <div class="card certificate-card">
                                     <a href="assets\img\certificates/CERTIFICATES[11].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[11].jpg" class="lozad maxwidth"
+                                            src="assets\img\certificates/CERTIFICATES[11].jpg" class="lozad"
                                             alt="..."></a>
                                     <div class="card-body">
                                         <p class="card-text">The Complete Ethical Hacking Course:
@@ -162,7 +376,7 @@
                                 </div>
                                 <div class="card certificate-card">
                                     <a href="assets\img\certificates/CERTIFICATES[10].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[10].jpg" class="lozad maxwidth"
+                                            src="assets\img\certificates/CERTIFICATES[10].jpg" class="lozad"
                                             alt="..."></a>
                                     <div class="card-body">
                                         <p class="card-text">The Complete JavaScript Course For Web
@@ -171,7 +385,7 @@
                                 </div>
                                 <div class="card certificate-card">
                                     <a href="assets\img\certificates/CERTIFICATES[9].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[9].jpg" class="lozad maxwidth"
+                                            src="assets\img\certificates/CERTIFICATES[9].jpg" class="lozad"
                                             alt="..."></a>
                                     <div class="card-body">
                                         <p class="card-text">The Complete C Programming Tutorial</p>
@@ -179,7 +393,7 @@
                                 </div>
                                 <div class="card certificate-card">
                                     <a href="assets\img\certificates/CERTIFICATES[8].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[8].jpg" class="lozad maxwidth"
+                                            src="assets\img\certificates/CERTIFICATES[8].jpg" class="lozad"
                                             alt="..."></a>
                                     <div class="card-body">
                                         <p class="card-text">All in one HTML CSS and JQuery</p>
@@ -187,7 +401,7 @@
                                 </div>
                                 <div class="card certificate-card">
                                     <a href="assets\img\certificates/CERTIFICATES[7].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[7].jpg" class="lozad maxwidth"
+                                            src="assets\img\certificates/CERTIFICATES[7].jpg" class="lozad"
                                             alt="..."></a>
                                     <div class="card-body">
                                         <p class="card-text">SOLOLEARN HTML Fundamentals course</p>
@@ -195,7 +409,7 @@
                                 </div>
                                 <div class="card certificate-card">
                                     <a href="assets\img\certificates/CERTIFICATES[6].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[6].jpg" class="lozad maxwidth"
+                                            src="assets\img\certificates/CERTIFICATES[6].jpg" class="lozad"
                                             alt="..."></a>
                                     <div class="card-body">
                                         <p class="card-text">SOLOLEARN JavaScript Tutorial course</p>
@@ -203,7 +417,7 @@
                                 </div>
                                 <div class="card certificate-card">
                                     <a href="assets\img\certificates/CERTIFICATES[5].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[5].jpg" class="lozad maxwidth"
+                                            src="assets\img\certificates/CERTIFICATES[5].jpg" class="lozad"
                                             alt="..."></a>
                                     <div class="card-body">
                                         <p class="card-text">SOLOLEARN PHP Tutorial course</p>
@@ -219,7 +433,7 @@
                                 <div class="card certificate-card">
 
                                     <a href="assets\img\certificates\CERTIFICATES[1].jpg" class="image-link"><img
-                                            src="assets\img\certificates\CERTIFICATES[1].jpg" class="lozad maxwidth"
+                                            src="assets\img\certificates\CERTIFICATES[1].jpg" class="lozad"
                                             alt="..."></a>
                                     <div class="card-body">
                                         <p class="card-text">Multi-tech Hackaton 2020</p>
@@ -227,7 +441,7 @@
                                 </div>
                                 <div class="card certificate-card">
                                     <a href="assets\img\certificates\CERTIFICATES[3].jpg" class="image-link"><img
-                                            src="assets\img\certificates\CERTIFICATES[3].jpg" class="lozad maxwidth"
+                                            src="assets\img\certificates\CERTIFICATES[3].jpg" class="lozad"
                                             alt="..."></a>
                                     <div class="card-body">
                                         <p class="card-text">VYRO 2019 Bug-Debug.</p>
@@ -242,7 +456,7 @@
             </div>
         </div>
         <div class="container">
-            <h1 data-aos="fade-down" style="text-align: center">My Projects</h1>
+            <h4 data-aos="fade-down" class="text-uppercase subtits">My Projects</h4>
             <div id="demo" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -254,7 +468,7 @@
                         <div class="carousel-caption">
                             <h6>Object Recognition Tool for Visually Impaired </h6>
 
-                            <a data-toggle="modal" class="btn btn-dark" data-target="#exampleModal">Click here for more
+                            <a data-toggle="modal" class="btn btn-dark" data-target="#exampleModal">More
                                 information</a>
 
                         </div>
@@ -443,13 +657,15 @@
         <div class="container">
 
             <div class="text-center">
-                <h2 data-aos="zoom-in-up" class="section-heading text-uppercase">Contact Me</h2>
+                <!-- <h2 data-aos="zoom-in-up" class="text-divider section-heading text-uppercase"><span>Contact Me</span></h2> -->
+                <h2 data-aos="zoom-in-up" class="text-divider section-heading text-uppercase"><span>Contact Me</span>
+                </h2>
 
             </div>
             <br>
 
-            <h3 data-aos="zoom-in-up" style="text-align: center;" class="section-heading text-uppercase">Social media
-            </h3>
+            <h4 data-aos="zoom-in-up" style="color: white;" class="text-uppercase contact-me-sub subtits">Social media
+            </h4>
             <div class="social-media-icon-section">
                 <a data-aos="fade-right" href="https://www.facebook.com/RSwaT.69/" target="_blank"
                     class="fa fa-facebook"></a>
@@ -466,9 +682,9 @@
             </div>
             <br>
             <br>
-            <h3 data-aos="zoom-in-up" style="text-align: center;" class="section-heading text-uppercase">Contact me
+            <h4 data-aos="zoom-in-up" style="color: white;" class="text-uppercase contact-me-sub subtits">Contact me
                 directly
-            </h3>
+            </h4>
             <br>
             <form method="post" data-aos="zoom-in-up" name="sentMessage" novalidate="novalidate">
                 <!-- <form method="post" data-aos="zoom-in-up" id="contactForm" name="sentMessage" novalidate="novalidate"> -->
@@ -512,4 +728,3 @@
 </body>
 
 </html>
-
