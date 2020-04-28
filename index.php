@@ -33,8 +33,8 @@
             <br>
             <div class="container">
                 <div class="arrow-holder">
-                    <div id="arrow" class="circle bounce" data-target="#introText">
-                        <i class="fa fa-angle-double-down fa-4x drop-arrow"></i>
+                <a href="#resume"><div id="arrow" class="circle bounce" data-target="#introText">
+                        <i class="fa fa-angle-double-down fa-4x drop-arrow"></i></a>
                     </div>
                 </div>
             </div>

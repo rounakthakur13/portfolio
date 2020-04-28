@@ -11767,7 +11767,7 @@ html {
   }
   .card-text:last-child {
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 15px;
 }
 .subtits{
   text-align: center !important;
@@ -12121,7 +12121,9 @@ Demo purposes only
 }
 
 
-
+.fa-angle-double-down{
+  color: white;
+}
 
 
 
