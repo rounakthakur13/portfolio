@@ -370,19 +370,19 @@
                 directly
             </h4>
             <br>
-            <form method="post" data-aos="zoom-in-up" name="sentMessage" novalidate="novalidate">
+            <form method="post" action="#contact" data-aos="zoom-in-up">
                 <!-- <form method="post" data-aos="zoom-in-up" id="contactForm" name="sentMessage" novalidate="novalidate"> -->
 
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
                         <div class="form-group">
                             <input class="form-control" name="name" type="text" placeholder="Your Name *"
-                                required="required" data-validation-required-message="Please enter your name." />
+                                required data-validation-required-message="Please enter your name." />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
                             <input class="form-control" name="email" type="email" placeholder="Your Email *"
-                                required="required"
+                                required
                                 data-validation-required-message="Please enter your email address." />
                             <p class="help-block text-danger"></p>
                         </div>
@@ -390,7 +390,7 @@
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
                             <textarea class="form-control" name="message" placeholder="Your Message *"
-                                required="required"
+                                required
                                 data-validation-required-message="Please enter a message."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
@@ -398,8 +398,7 @@
                 </div>
                 <div class="text-center">
                     <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" name="submit" type="submit">Send
-                        Message</button>
+                    <input type="submit" class="btn btn-primary btn-xl text-uppercase" name="submit" value="Send message">
                 </div>
             </form>
             <?php include 'email.php'; ?>

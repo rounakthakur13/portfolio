@@ -11951,11 +11951,11 @@ body {
 .tabset>label:hover::after,
 .tabset>input:focus+label::after,
 .tabset>input:checked+label::after {
-  background: #06c;
+  background: #fed136;
 }
 
 .tabset>input:checked+label {
-  border-color: #ccc;
+  border-color: #fed136;
   border-bottom: 1px solid #fff;
   margin-bottom: -1px;
 }
@@ -12045,11 +12045,6 @@ Demo purposes only
   border-bottom: 1px solid #f7f7f7;
 }
 
-/* single arrow animation */
-.fa-caret-left {
-  color: black;
-  float: right;
-}
 
 [data-toggle1="collapse1"]:after {
   display: inline-block;
