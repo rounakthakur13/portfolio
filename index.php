@@ -141,12 +141,13 @@
                     <input type="radio" name="tabset" id="tab1" aria-controls="completion" checked>
                     <label for="tab1">Completion</label>
                     <!-- Tab 2 -->
-                    <!-- <input type="radio" name="tabset" id="tab2" aria-controls="won">
-                    <label for="tab2">Won</label> -->
+                    <input type="radio" name="tabset" id="tab2" aria-controls="participation">
+                    <label for="tab2">Participation</label>
                     <!-- Tab 3 -->
 
-                    <input type="radio" name="tabset" id="tab3" aria-controls="participation">
-                    <label for="tab3">Participation</label>
+                    <input type="radio" name="tabset" id="tab3" aria-controls="won">
+                    <label for="tab3">Won</label>
+                    
                     <p style="font-size: 10px;">*click on photo to zoom</p>
                     <div class="tab-panels">
                         <section id="completion" class="tab-panel">
@@ -228,7 +229,15 @@
                                         <p class="card-text">SOLOLEARN PHP Tutorial course</p>
                                     </div>
                                 </div>
-
+                                <div class="card certificate-card">
+                                    <a href="assets\img\certificates/CERTIFICATES[13].jpg" class="image-link"><img
+                                            src="assets\img\certificates/CERTIFICATES[13].jpg" class="lozad"
+                                            alt="..."></a>
+                                    <div class="card-body">
+                                        <p class="card-text"> Beginners Introduction to Web Development</p>
+                                    </div>
+                                </div>
+                               
                             </div>
                         </section>
 
@@ -254,7 +263,20 @@
                                 </div>
                             </div>
                         </section>
+                        <section id="won" class="tab-panel">
+                            <div class="certification-cards-section">
 
+                                <div class="card certificate-card">
+
+                                    <a href="assets\img\certificates\CERTIFICATES[14].jpg" class="image-link"><img
+                                            src="assets\img\certificates\CERTIFICATES[14].jpg" class="lozad"
+                                            alt="..."></a>
+                                    <div class="card-body">
+                                        <p class="card-text">Smart India Hackaton (Internal)</p>
+                                    </div>
+                                </div>
+                                        </div>
+                        </section>
 
                     </div>
                 </div>
