@@ -147,7 +147,7 @@
 
                     <input type="radio" name="tabset" id="tab3" aria-controls="won">
                     <label for="tab3">Won</label>
-                    
+
                     <p style="font-size: 10px;">*click on photo to zoom</p>
                     <div class="tab-panels">
                         <section id="completion" class="tab-panel">
@@ -237,7 +237,7 @@
                                         <p class="card-text"> Beginners Introduction to Web Development</p>
                                     </div>
                                 </div>
-                               
+
                             </div>
                         </section>
 
@@ -275,7 +275,7 @@
                                         <p class="card-text">Smart India Hackaton (Internal)</p>
                                     </div>
                                 </div>
-                                        </div>
+                            </div>
                         </section>
 
                     </div>
@@ -285,15 +285,18 @@
         <div class="container">
             <h4 data-aos="fade-down" class="text-uppercase subtits">My Projects</h4>
             <div data-aos="fade-left" class="card mb-3">
-                    <img src="assets/img/project1.jpg" class="card-img-top" style="max-height: 400px;" alt="...">
-                    <div style="text-align: center;" class="card-body">
-                        <h5 class="card-title">Object Recognition Tool for Visually Impaired</h5>
-                        <p> This object detection module uses Google Cloud Vision API and Raspberry Pi which gives the output in audio format. This could be helpful for people with impaired vision or the ones who have visibility problems.</p>
+                <img src="assets/img/project1.jpg" class="card-img-top" style="max-height: 400px;" alt="...">
+                <div style="text-align: center;" class="card-body">
+                    <h5 class="card-title">Object Recognition Tool for Visually Impaired</h5>
+                    <p> This object detection module uses Google Cloud Vision API and Raspberry Pi which gives the
+                        output in audio format. This could be helpful for people with impaired vision or the ones who
+                        have visibility problems.</p>
 
-                        <a data-toggle="modal" class="btn btn-warning" style="color: white;" data-target="#exampleModal">More
-                            information</a>
-                    </div>
+                    <a data-toggle="modal" class="btn btn-warning" style="color: white;"
+                        data-target="#exampleModal">More
+                        information</a>
                 </div>
+            </div>
             <!-- <div id="demo" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -398,21 +401,19 @@
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input class="form-control" name="name" type="text" placeholder="Your Name *"
-                                required data-validation-required-message="Please enter your name." />
+                            <input class="form-control" name="name" type="text" placeholder="Your Name *" required
+                                data-validation-required-message="Please enter your name." />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" name="email" type="email" placeholder="Your Email *"
-                                required
+                            <input class="form-control" name="email" type="email" placeholder="Your Email *" required
                                 data-validation-required-message="Please enter your email address." />
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
-                            <textarea class="form-control" name="message" placeholder="Your Message *"
-                                required
+                            <textarea class="form-control" name="message" placeholder="Your Message *" required
                                 data-validation-required-message="Please enter a message."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
@@ -420,7 +421,8 @@
                 </div>
                 <div class="text-center">
                     <div id="success"></div>
-                    <input type="submit" class="btn btn-primary btn-xl text-uppercase" name="submit" value="Send message">
+                    <input type="submit" class="btn btn-primary btn-xl text-uppercase" name="submit"
+                        value="Send message">
                 </div>
             </form>
             <?php include 'email.php'; ?>
