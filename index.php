@@ -13,7 +13,7 @@
     <!-- Masthead-->
     <header class="masthead">
         <div class="container">
-            <div class="masthead-subheading">Hey my name is Rounak!</div>
+            <div class="masthead-subheading">Hey my name is Rounakc!</div>
             <div class="masthead-heading text-uppercase">And I'm <br> <span class="type"></span></div>
             <script src="js/typed.js"></script>
             <script>
@@ -82,14 +82,30 @@
                                     <p class="text-muted">2017-2020</p>
                                 </div>
                                 <h4>Thakur Polytechnic</h4>
-                                <h4 class="subheading">Diploma in Computer Engineering</h4>
+                                <h5 class="subheading">Diploma in Computer Engineering</h5>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Pursuing 3rd year (76%)</p>
+                                <p class="text-muted">Percentage: 84.63%</p>
                             </div>
                         </div>
                     </li>
-
+                    <li data-aos="fade-up">
+                        <div class="timeline-image"><img class="lozad rounded-circle img-fluid"
+                                src="assets/img/school.jpg" alt="" /></div>
+                        <div data-aos="fade-right" class="timeline-panel">
+                            <div class="timeline-heading">
+                                <div class="timeline-body">
+                                    <p class="text-muted">2021-2023</p>
+                                </div>
+                                <h4 class="subheading">Atharva College of Engineering, Malad
+                                </h4>
+                                <h5 class="subheading">B.E. in Computer Engineering</h5>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">CGPA: 9.32</p>
+                            </div>
+                        </div>
+                    </li>
                     <li data-aos="fade-up" class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>To Be<br />Continued<br /></h4>
@@ -98,6 +114,7 @@
                 </ul>
             </div>
         </div>
+        <br>
         <br>
         <div class="container">
             <div class="text-center">
@@ -111,7 +128,7 @@
                     <div data-aos="fade-left" class="timeline-panel">
                         <div class="timeline-heading">
                             <div class="timeline-body">
-                                <p class="text-muted">6 weeks internship</p>
+                                <p class="text-muted">Summer Internship</p>
                             </div>
                             <h4 class="subheading">Nibodh Educare Private Limited</h4>
                         </div>
@@ -123,7 +140,22 @@
                         </div>
                     </div>
                 </li>
-
+                <li data-aos="fade-up" class="timeline-inverted">
+                        <div class="timeline-image"><img class="lozad rounded-circle img-fluid"
+                                src="assets/img/tpoly.jpg" alt="" /></div>
+                        <div data-aos="fade-left" class="timeline-panel">
+                            <div class="timeline-heading">
+                                <div class="timeline-body">
+                                    <p class="text-muted">2017-2020</p>
+                                </div>
+                                <h4>Thakur Polytechnic</h4>
+                                <h4 class="subheading">Diploma in Computer Engineering</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Percentage: 84.63%</p>
+                            </div>
+                        </div>
+                    </li>
             </ul>
         </div>
     </section>
