@@ -11,15 +11,18 @@
     <?php include 'nav.php';?>
 
     <!-- Masthead-->
+  
     <header class="masthead">
+    
         <div class="container">
+        
             <div class="masthead-subheading ">Hey my name is Rounak!</div>
             <div class="masthead-heading text-uppercase">And I'm <br> <span class="type"></span></div>
             <script src="js/typed.js"></script>
             <script>
                 var typed = new Typed('.type', {
                     strings: ['Programmer',
-                        'Ethical hacker',
+                        'Hacker',
                         'Gamer'
                     ],
                     typeSpeed: 80,
@@ -27,11 +30,13 @@
                     loop: true
                 });
             </script>
+             
             <br>
             <br>
             <h6 class="nav-item"><a class="nav-link js-scroll-trigger">You are <?php include("counter.php");?>
                     Visitor<a></a></h6>
             <br>
+       
             <div class="container">
                 <div class="arrow-holder">
                     <a href="#resume">
@@ -40,14 +45,23 @@
                     </a>
                 </div>
             </div>
+            <canvas id="nokey">
+             </canvas>
         </div>
-        </div>
+        
     </header>
+
     <!-- Services-->
 
     <!-- resume Grid-->
     <section class="page-section" id="resume">
         <h1 data-aos="zoom-in-up" class="text-divider text-uppercase"><span>Resume</span></h1>
+        <div style="text-align: center;" class="card-body">
+            <a data-aos="fade-right" href="assets\img\Resume.jpg" class="image-link btn btn-outline-secondary">Quick
+                View Resume<img></a>
+            <a data-aos="fade-left" href="assets\documents\Rounak_Thakur_Resume.pdf" class="btn btn-outline-secondary"
+                target="_blank">Download Resume</a>
+        </div>
 
         <?php include 'skills.php';?>
         <?php include 'moreskills.php';?>
@@ -159,14 +173,15 @@
                                 • Provided in-house IT support to the CEO and management team<br>
                                 • Assisted in troubleshooting issues on web-based systems and helped in website
                                 maintenance</p>
-                                <a href="assets\img\certificates/Nibodh Educare Web Dev.jpg" class="image-link">Click here to view
+                            <a href="assets\img\certificates/Nibodh Educare Web Dev.jpg" class="image-link">Click here
+                                to view
                                 certificate</a>
                         </div>
                     </div>
                 </li>
                 <li data-aos="fade-up">
-                    <div class="timeline-image"><img class="lozad rounded-circle img-fluid" src="assets/img/vaisansar.jfif"
-                            alt="" /></div>
+                    <div class="timeline-image"><img class="lozad rounded-circle img-fluid"
+                            src="assets/img/vaisansar.jfif" alt="" /></div>
                     <div data-aos="fade-left" class="timeline-panel">
                         <div class="timeline-heading">
                             <div class="timeline-body">
@@ -187,7 +202,8 @@
                                     unwarranted threats and destruction<br>
                                     ● Discovered 3+ potential vulnerabilities, threats in web servers and suggested
                                     upgrades</span></p>
-                                    <button type="button" class="btn btn-outline-warning" onclick="showMore()"id="showMoreBtn">Read more</button><br>
+                            <button type="button" class="btn btn-outline-warning" onclick="showMore()"
+                                id="showMoreBtn">Read more</button><br>
                             </p>
                         </div>
                     </div>
@@ -201,7 +217,7 @@
         <div class="container">
             <h1 data-aos="zoom-in-up" class="text-divider text-uppercase"><span>Portfolio</span></h1>
             <!-- <div data-aos="fade-right" class="row"> -->
-            <?php include 'certification_test.php';?>
+            <?php include 'certification.php';?>
         </div>
         <div class="container">
             <h4 data-aos="fade-down" class="text-uppercase subtits">My Projects</h4>
@@ -353,6 +369,7 @@
     <!-- Footer-->
     <?php include 'footer.php';?>
     <?php include 'ip.php';?>
+    
 </body>
 
 </html>

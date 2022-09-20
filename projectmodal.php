@@ -131,50 +131,102 @@
         </div>
     </div>
 </div>
+<!-- certificate modal  -->
 <div class="modal fade" id="completioncerti" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalexampleModalLabelScrollableTitle" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable" role="document">
-                            <div class="modal-content">
+    aria-labelledby="exampleModalexampleModalLabelScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
 
-                                <div class="modal-body">
-                                
-                                    <div class="card certificate-card">
-                                        <a href="assets\img\certificates/CERTIFICATES[7].jpg" class="image-link"><img
-                                                src="assets\img\certificates/CERTIFICATES[7].jpg" class="lozad"
-                                                alt="..."></a>
-                                        <div class="card-body">
-                                            <p class="card-text">SOLOLEARN HTML Fundamentals course</p>
-                                        </div>
-                                    </div>
-                                    <div class="card certificate-card">
-                                        <a href="assets\img\certificates/CERTIFICATES[6].jpg" class="image-link"><img
-                                                src="assets\img\certificates/CERTIFICATES[6].jpg" class="lozad"
-                                                alt="..."></a>
-                                        <div class="card-body">
-                                            <p class="card-text">SOLOLEARN JavaScript Tutorial course</p>
-                                        </div>
-                                    </div>
-                                    <div class="card certificate-card">
-                                        <a href="assets\img\certificates/CERTIFICATES[5].jpg" class="image-link"><img
-                                                src="assets\img\certificates/CERTIFICATES[5].jpg" class="lozad"
-                                                alt="..."></a>
-                                        <div class="card-body">
-                                            <p class="card-text">SOLOLEARN PHP Tutorial course</p>
-                                        </div>
-                                    </div>
-                                    <div class="card certificate-card">
-                                        <a href="assets\img\certificates/CERTIFICATES[13].jpg" class="image-link"><img
-                                                src="assets\img\certificates/CERTIFICATES[13].jpg" class="lozad"
-                                                alt="..."></a>
-                                        <div class="card-body">
-                                            <p class="card-text"> Beginners Introduction to Web Development</p>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <div class="modal-body">
+
+            <div class="card certificate-card">
+                                    <a href="assets\img\certificates/CERTIFICATES[8].jpg" class="image-link"><img
+                                            src="assets\img\certificates/CERTIFICATES[8].jpg" class="lozad"
+                                            alt="..."></a>
+                                    <div class="card-body">
+                                        <p class="card-text">All in one HTML CSS and JQuery</p>
                                     </div>
                                 </div>
-                            </div>
+                <div class="card certificate-card">
+                    <a href="assets\img\certificates/CERTIFICATES[7].jpg" class="image-link"><img
+                            src="assets\img\certificates/CERTIFICATES[7].jpg" class="lozad" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text">SOLOLEARN HTML Fundamentals course</p>
+                    </div>
+                </div>
+                <div class="card certificate-card">
+                    <a href="assets\img\certificates/CERTIFICATES[6].jpg" class="image-link"><img
+                            src="assets\img\certificates/CERTIFICATES[6].jpg" class="lozad" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text">SOLOLEARN JavaScript Tutorial course</p>
+                    </div>
+                </div>
+                <div class="card certificate-card">
+                    <a href="assets\img\certificates/CERTIFICATES[5].jpg" class="image-link"><img
+                            src="assets\img\certificates/CERTIFICATES[5].jpg" class="lozad" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text">SOLOLEARN PHP Tutorial course</p>
+                    </div>
+                </div>
+                <div class="card certificate-card">
+                    <a href="assets\img\certificates/CERTIFICATES[13].jpg" class="image-link"><img
+                            src="assets\img\certificates/CERTIFICATES[13].jpg" class="lozad" alt="..."></a>
+                    <div class="card-body">
+                        <p class="card-text"> Beginners Introduction to Web Development</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="participationcerti" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalexampleModalLabelScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body">
+
+            <div class="card certificate-card">
+                        <a href="assets\img\certificates\Participation_certificate (5).jpg" class="image-link"><img
+                                src="assets\img\certificates\Participation_certificate (5).jpg" class="lozad"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">Emerging Trends in Computer and Information Technology Quiz</p>
                         </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="assets\img\certificates\Participation_certificate (6).jpg" class="image-link"><img
+                                src="assets\img\certificates\Participation_certificate (6).jpg" class="lozad"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">MOBILE APPLICATION
+                                DEVELOPMENT by Pravin Patil College</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="assets\img\certificates\Participation_certificate (7).jpg" class="image-link"><img
+                                src="assets\img\certificates\Participation_certificate (7).jpg" class="lozad"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">Future Technology Quiz by VISHWANIKETAN'S Institute</p>
+                        </div>
+                    </div>
+                    <div class="card certificate-card">
+                        <a href="assets\img\certificates\Participation_certificate (8).jpg" class="image-link"><img
+                                src="assets\img\certificates\Participation_certificate (8).jpg" class="lozad"
+                                alt="..."></a>
+                        <div class="card-body">
+                            <p class="card-text">CORONAVIRUS (COVID-19) AWARENESS CAMPAIGN by MIT Pune</p>
+                        </div>
+                    </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
