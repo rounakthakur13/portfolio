@@ -12111,26 +12111,3 @@ canvas{
   z-index: -1;
 }
 
-/* for headers bg */
-@media only screen and (max-width: 1260px) and  (max-height:1260px) {
-  canvas{
-    /* display: none; */
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #000;
-    z-index: -1;
-  }
-  
-  header.masthead {
-    padding-top: 10.5rem;
-    padding-bottom: 6rem;
-    text-align: center;
-    color: #fff;
-    /* background-image: url("../assets/img/header-bg.jpg"); */
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-  }
-}
