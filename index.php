@@ -13,7 +13,7 @@
     <!-- Masthead-->
     <header class="masthead">
         <div class="container">
-            <div class="masthead-subheading">Hey my name is Rounakc!</div>
+            <div class="masthead-subheading ">Hey my name is Rounak!</div>
             <div class="masthead-heading text-uppercase">And I'm <br> <span class="type"></span></div>
             <script src="js/typed.js"></script>
             <script>
@@ -91,7 +91,7 @@
                     </li>
                     <li data-aos="fade-up">
                         <div class="timeline-image"><img class="lozad rounded-circle img-fluid"
-                                src="assets/img/school.jpg" alt="" /></div>
+                                src="assets/img/Atharva_college.jfif" alt="" /></div>
                         <div data-aos="fade-right" class="timeline-panel">
                             <div class="timeline-heading">
                                 <div class="timeline-body">
@@ -128,34 +128,70 @@
                     <div data-aos="fade-left" class="timeline-panel">
                         <div class="timeline-heading">
                             <div class="timeline-body">
-                                <p class="text-muted">Summer Internship</p>
+                                <h4 class="text-muted">Summer Internship</h4>
                             </div>
-                            <h4 class="subheading">Nibodh Educare Private Limited</h4>
+                            <h5 class="subheading">Nibodh Educare Private Limited</h5>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Nibodh is an education sector startup which caters to fulfill the
-                                flaws of the Indian Education System,associated to engineering system.</p>
+                            <p class="text-left">• Identified problems uncovered by testing or customer feedback, and
+                                corrected them by mentoring a team of 4 more
+                                developers to improve the performance by 35%<br>
+                                • Design and implement web site security measures such as firewalls or login encryption
+                            </p>
                             <a href="assets\img\certificates/CERTIFICATES[2].jpg" class="image-link">Click here to view
                                 certificate</a>
                         </div>
                     </div>
                 </li>
                 <li data-aos="fade-up" class="timeline-inverted">
-                        <div class="timeline-image"><img class="lozad rounded-circle img-fluid"
-                                src="assets/img/tpoly.jpg" alt="" /></div>
-                        <div data-aos="fade-left" class="timeline-panel">
-                            <div class="timeline-heading">
-                                <div class="timeline-body">
-                                    <p class="text-muted">2017-2020</p>
-                                </div>
-                                <h4>Thakur Polytechnic</h4>
-                                <h4 class="subheading">Diploma in Computer Engineering</h4>
-                            </div>
+                    <div class="timeline-image"><img class="lozad rounded-circle img-fluid" src="assets/img/nibodh.jpg"
+                            alt="" /></div>
+                    <div data-aos="fade-left" class="timeline-panel">
+                        <div class="timeline-heading">
                             <div class="timeline-body">
-                                <p class="text-muted">Percentage: 84.63%</p>
+                                <h4 class="text-muted">Web Dev Internship</h4>
                             </div>
+                            <h5 class="subheading">Nibodh Educare Private Limited</h5>
                         </div>
-                    </li>
+                        <div class="timeline-body">
+                            <p class="text-muted">• Organized and taught hands-on training for adobe software to entire
+                                technical team<br>
+                                • Provided in-house IT support to the CEO and management team<br>
+                                • Assisted in troubleshooting issues on web-based systems and helped in website
+                                maintenance</p>
+                                <a href="assets\img\certificates/Nibodh Educare Web Dev.jpg" class="image-link">Click here to view
+                                certificate</a>
+                        </div>
+                    </div>
+                </li>
+                <li data-aos="fade-up">
+                    <div class="timeline-image"><img class="lozad rounded-circle img-fluid" src="assets/img/vaisansar.jfif"
+                            alt="" /></div>
+                    <div data-aos="fade-left" class="timeline-panel">
+                        <div class="timeline-heading">
+                            <div class="timeline-body">
+                                <h4 class="text-muted">CyberSecurity Consultant Intern</h4>
+                            </div>
+                            <h5 class="subheading">Vaisansar Technologies Pvt. Ltd</h5>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-left">● Monitored multiple projects on malware detection and protection,
+                                reduced attacks on Content Delivery Networks
+                                and SSL cross-site scripting by 15%<br>
+                                ● Performed random security inspections<span id="dots">...</span><span id="more"> for a
+                                    site containing 1500 employees users to
+                                    ensure the validity and safety
+                                    of all technical operations<br>
+                                    ● Scanned sites for malware and security risks regularly, saving over 5000 computers
+                                    from unwanted and
+                                    unwarranted threats and destruction<br>
+                                    ● Discovered 3+ potential vulnerabilities, threats in web servers and suggested
+                                    upgrades</span></p>
+                                    <button type="button" class="btn btn-outline-warning" onclick="showMore()"id="showMoreBtn">Read more</button><br>
+                            </p>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
@@ -165,154 +201,7 @@
         <div class="container">
             <h1 data-aos="zoom-in-up" class="text-divider text-uppercase"><span>Portfolio</span></h1>
             <!-- <div data-aos="fade-right" class="row"> -->
-            <div class="container">
-                <br>
-                <h4 data-aos="fade-down" class="text-uppercase subtits">Certification</h4>
-                <div data-aos="fade-up" class="tabset">
-                    <!-- Tab 1 -->
-                    <input type="radio" name="tabset" id="tab1" aria-controls="completion" checked>
-                    <label for="tab1">Completion</label>
-                    <!-- Tab 2 -->
-                    <input type="radio" name="tabset" id="tab2" aria-controls="participation">
-                    <label for="tab2">Participation</label>
-                    <!-- Tab 3 -->
-
-                    <input type="radio" name="tabset" id="tab3" aria-controls="won">
-                    <label for="tab3">Won</label>
-
-                    <p style="font-size: 10px;">*click on photo to zoom</p>
-                    <div class="tab-panels">
-                        <section id="completion" class="tab-panel">
-
-                            <div class="certification-cards-section">
-
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates/CERTIFICATES[4].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[4].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">The Fundamentals of Digital Marketing by
-                                            Google </p>
-                                    </div>
-                                </div>
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates/CERTIFICATES[12].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[12].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">FreeCodeCamp.org Responsive Web Design</p>
-                                    </div>
-                                </div>
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates/CERTIFICATES[11].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[11].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">The Complete Ethical Hacking Course:
-                                            Beginner to Advanced!</p>
-                                    </div>
-                                </div>
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates/CERTIFICATES[10].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[10].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">The Complete JavaScript Course For Web
-                                            Development Beginners</p>
-                                    </div>
-                                </div>
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates/CERTIFICATES[9].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[9].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">The Complete C Programming Tutorial</p>
-                                    </div>
-                                </div>
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates/CERTIFICATES[8].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[8].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">All in one HTML CSS and JQuery</p>
-                                    </div>
-                                </div>
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates/CERTIFICATES[7].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[7].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">SOLOLEARN HTML Fundamentals course</p>
-                                    </div>
-                                </div>
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates/CERTIFICATES[6].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[6].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">SOLOLEARN JavaScript Tutorial course</p>
-                                    </div>
-                                </div>
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates/CERTIFICATES[5].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[5].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">SOLOLEARN PHP Tutorial course</p>
-                                    </div>
-                                </div>
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates/CERTIFICATES[13].jpg" class="image-link"><img
-                                            src="assets\img\certificates/CERTIFICATES[13].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text"> Beginners Introduction to Web Development</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </section>
-
-                        <section id="participation" class="tab-panel">
-                            <div class="certification-cards-section">
-
-                                <div class="card certificate-card">
-
-                                    <a href="assets\img\certificates\CERTIFICATES[1].jpg" class="image-link"><img
-                                            src="assets\img\certificates\CERTIFICATES[1].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">Multi-tech Hackaton 2020</p>
-                                    </div>
-                                </div>
-                                <div class="card certificate-card">
-                                    <a href="assets\img\certificates\CERTIFICATES[3].jpg" class="image-link"><img
-                                            src="assets\img\certificates\CERTIFICATES[3].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">VYRO 2019 Bug-Debug.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section id="won" class="tab-panel">
-                            <div class="certification-cards-section">
-
-                                <div class="card certificate-card">
-
-                                    <a href="assets\img\certificates\CERTIFICATES[14].jpg" class="image-link"><img
-                                            src="assets\img\certificates\CERTIFICATES[14].jpg" class="lozad"
-                                            alt="..."></a>
-                                    <div class="card-body">
-                                        <p class="card-text">Smart India Hackaton (Internal)</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                    </div>
-                </div>
-            </div>
+            <?php include 'certification_test.php';?>
         </div>
         <div class="container">
             <h4 data-aos="fade-down" class="text-uppercase subtits">My Projects</h4>

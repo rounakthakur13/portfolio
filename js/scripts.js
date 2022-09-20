@@ -87,21 +87,6 @@ $('.image-link').magnificPopup({
   
   });
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
     // Collapse Navbar
     var navbarCollapse = function () {
         if ($("#mainNav").offset().top > 100) {
@@ -115,3 +100,37 @@ $('.image-link').magnificPopup({
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+//Show More
+
+function showMore() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("showMoreBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
+
+  //nested modal
+  $(document).ready(function() {
+
+    $('#openBtn').click(() => $('#myModal').modal({
+      show: true
+    }));
+  
+    $(document).on('show.bs.modal', '.modal', function() {
+      const zIndex = 1040 + 10 * $('.modal:visible').length;
+      $(this).css('z-index', zIndex);
+      setTimeout(() => $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass('modal-stack'));
+    });
+  
+  });
+  
